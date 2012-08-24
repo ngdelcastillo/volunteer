@@ -11,6 +11,8 @@ gem 'haml'
 gem 'haml-rails'
 gem 'devise'
 gem 'cancan'
+gem 'quiet_assets', :group => :development
+gem 'thin'
 
 group :test do
   gem 'factory_girl_rails'
